@@ -21,9 +21,9 @@ A flight booking website (mimicking aviation company's online booking systems) m
 
 ## Game Production Updates
 
-### 24/01/21 11:50am
+### 24/01/21 11:50pm
 
----- Write first update here ----
+Step One Complete: Database set up and seeded (users and flights appear on the website correctly). Routes, controller and views set up for users and flights. No routes, controllers or views will be needed for the airports, though they may be added as bonus functionality in Step Four. The next step is to add basic functionality (user CRUD systems, user log in / log out, flight searching / booking and flight CRUD systems).
 
 ## Game Production Plan
 
@@ -31,7 +31,7 @@ A flight booking website (mimicking aviation company's online booking systems) m
 * Create a new Ruby on Rails project
 * Design, create and seed a database with information about users, flights, airports and how they're connected
 * Design a user story and use that to set up the routes, controllors and views needed for the website
-* Add the basic site layout to application.html.erb (navber, headings, etc.) and link it to a CSS stylesheet
+* Add the basic site layout to application.html.erb (navber, headings, etc.)
 * Commit initial version to GitHub and edit readme file
 
 ### Step Two
@@ -50,6 +50,7 @@ A flight booking website (mimicking aviation company's online booking systems) m
 ### Step Four - bonus functionality
 * Prevent users from massively overbooking a flight by including data about the plane and number of seats available
 * Use the Google Maps API to estimate flight distances and therefore arrival times
+* Enable airports to be added, edited and deleted
 * Commit updated version to GitHub and edit readme file
 
 ### Step Five
