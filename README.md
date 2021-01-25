@@ -6,7 +6,9 @@ A flight booking website (mimicking aviation company's online booking systems) m
 
 ## Outstanding issues
 
----- To be listed here when production starts ----
+* Can't log into pre-existing accounts, since they don't have passwords
+* The form to edit a flight and the button to delete a flight are on pages that show flights to non-admin users. This is risky security-wise. I'll probably have to create a separate page for admins viewing flights and use partials to put the flight info on both the admin and non-admin flight show pages 
+* The site is not very user friendly and needs to provide more information (including warnings about canceling/deleting flights) to users 
 
 ## Technologies Used
 * HTML (with embedded Ruby)
@@ -20,6 +22,10 @@ A flight booking website (mimicking aviation company's online booking systems) m
 * [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text=XOXOXOX&preview.text_type=custom&sidebar.open=true&selection.family=Open+Sans:wght@400;700)
 
 ## Game Production Updates
+
+### 25/01/21 9:40pm
+
+Step Two Complete: Basic functionality added, including CRUD systems for users and flights, as well as the ability to search for, book and cancel flights. Users can log in, though the site currently gives no indication as to who is logged in and all of the site's functionality is available to all users. The next step is to ensure that only logged in users can access the site's functionality and that only admins can access admin-specific pages and forms.
 
 ### 24/01/21 11:50pm
 
