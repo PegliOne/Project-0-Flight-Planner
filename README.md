@@ -25,7 +25,7 @@ Live Website: https://floating-refuge-91114.herokuapp.com/
 
 ### 26/01/21 5:30pm
 
-Step Three Complete: Permissions added. Pages that require user login are only available to logged in users and pages that require admin status are only accessible to admin. In the current version, users must be logged in to search for and view flights. This may be changed in later versions. Bootstrap and basic styling added. Website deployed, but does not update when new commits are made. The next step is to improve the styling, address the issues with Heroku and start adding bonus functionality.
+Step Three Complete: Permissions added. Pages that require user login are only available to logged in users and pages that require admin status are only accessible to admin. In the current version, users must be logged in to search for and view flights. This may be changed in later versions. Bootstrap and basic styling added. Website deployed on Heroku. The next step is to improve the styling and start adding bonus functionality.
 
 ### 25/01/21 9:40pm
 
@@ -55,15 +55,15 @@ Step One Complete: Database set up and seeded (users and flights appear on the w
 * Style the website using CSS and Bootstrap
 * Test the website as a potential user/admin to make sure everything works
 * Deploy the website (if it hasn't been deployed already)
-* Commit updated version to GitHub and edit readme file
+* Commit updated version to Heroku and edit readme file
 
 ### Step Four - bonus functionality
 * Prevent users from massively overbooking a flight by including data about the plane and number of seats available
 * Use the Google Maps API to estimate flight distances and therefore arrival times
 * Enable airports to be added, edited and deleted
-* Commit updated version to GitHub and edit readme file
+* Commit updated version to Heroku and edit readme file (copy this readme file into the readme file from the main project and add heroku link to the description)
 
 ### Step Five
 * Review and optimise code wherever possible
 * Test the website as a potential user/admin to make sure everything (including bonus functionality) works
-* Commit updated version to GitHub and edit readme file
+* Commit updated version to Heroku and edit readme file
