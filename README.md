@@ -2,19 +2,19 @@
 
 A flight booking website (mimicking aviation company's online booking systems) made for the second project of the GA Software Engineering Course
 
----- Link will be provided here when available ---- 
+Live Website: https://floating-refuge-91114.herokuapp.com/
 
 ## Outstanding issues
 
-* Can't log into pre-existing accounts, since they don't have passwords
-* The form to edit a flight and the button to delete a flight are on pages that show flights to non-admin users. This is risky security-wise. I'll probably have to create a separate page for admins viewing flights and use partials to put the flight info on both the admin and non-admin flight show pages 
 * The site is not very user friendly and needs to provide more information (including warnings about canceling/deleting flights) to users 
+* The version of the site hosted on Heroku is not up-to-date
 
 ## Technologies Used
 * HTML (with embedded Ruby)
 * CSS and Bootstrap for styling
 * Ruby on Rails
 * PostgreSQL 
+* Heroku (for deployment)
 * Google maps API (for bonus functionality)
 
 ## Sites Used For Styling
@@ -22,6 +22,10 @@ A flight booking website (mimicking aviation company's online booking systems) m
 * [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text=XOXOXOX&preview.text_type=custom&sidebar.open=true&selection.family=Open+Sans:wght@400;700)
 
 ## Game Production Updates
+
+### 26/01/21 5:30pm
+
+Step Three Complete: Permissions added. Pages that require user login are only available to logged in users and pages that require admin status are only accessible to admin. In the current version, users must be logged in to search for and view flights. This may be changed in later versions. Bootstrap and basic styling added. Website deployed, but does not update when new commits are made. The next step is to improve the styling, address the issues with Heroku and start adding bonus functionality.
 
 ### 25/01/21 9:40pm
 
