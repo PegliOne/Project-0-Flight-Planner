@@ -7,7 +7,6 @@ Live Website: https://floating-refuge-91114.herokuapp.com/
 ## Outstanding issues
 
 * The site is not very user friendly and needs to provide more information (including warnings about canceling/deleting flights) to users 
-* The version of the site hosted on Heroku is not up-to-date
 
 ## Technologies Used
 * HTML (with embedded Ruby)
