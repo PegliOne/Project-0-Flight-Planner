@@ -21,7 +21,7 @@ Live Website: https://floating-refuge-91114.herokuapp.com/
 * [Coolers](https://coolors.co/palettes/popular)
 * [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text=XOXOXOX&preview.text_type=custom&sidebar.open=true&selection.family=Open+Sans:wght@400;700)
 
-## Game Production Updates
+## Website Production Updates
 
 ### 26/01/21 5:30pm
 
@@ -35,7 +35,7 @@ Step Two Complete: Basic functionality added, including CRUD systems for users a
 
 Step One Complete: Database set up and seeded (users and flights appear on the website correctly). Routes, controller and views set up for users and flights. No routes, controllers or views will be needed for the airports, though they may be added as bonus functionality in Step Four. The next step is to add basic functionality (user CRUD systems, user log in / log out, flight searching / booking and flight CRUD systems).
 
-## Game Production Plan
+## Website Production Plan
 
 ### Step One
 * Create a new Ruby on Rails project
