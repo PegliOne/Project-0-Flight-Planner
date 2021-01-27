@@ -8,6 +8,8 @@ Live Website: https://floating-refuge-91114.herokuapp.com/
 
 * The site does not automatically log a user in after they sign up
 * The site is not very user friendly and needs to provide more information (including warnings about canceling/deleting flights) to users 
+* The times need to be formated in a more user friendly way
+* It shouldn't be possible to add a flight which has the same departure and arrival city
 
 ## Technologies Used
 * HTML (with embedded Ruby)
@@ -17,11 +19,12 @@ Live Website: https://floating-refuge-91114.herokuapp.com/
 * Heroku (for deployment)
 * Google maps API (for bonus functionality)
 
-## Sites Used For Styling
-* [Coolers](https://coolors.co/palettes/popular)
-* [Google fonts](https://fonts.google.com/specimen/Open+Sans?preview.text=XOXOXOX&preview.text_type=custom&sidebar.open=true&selection.family=Open+Sans:wght@400;700)
 
 ## Website Production Updates
+
+### 27/01/21 11:50pm
+
+Step Four in Progress Complete: Styling Complete. Seat number tracking complete. The next step is to use the Google Maps API to determine flight distances / arrival time and make the website more user friendly (addressing the issues listed above). Adding a CRUD system for airport is a lower priority. 
 
 ### 26/01/21 5:30pm
 
